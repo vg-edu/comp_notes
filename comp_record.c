@@ -7,7 +7,6 @@
 // 1. ### Sum and Average of 3 Numbers:
 Code:
 */
-
 #include <stdio.h>
 
 int main() {
@@ -30,13 +29,14 @@ int main() {
     return 0;
 }
 
+/*
 Output
 ```
 Enter three numbers separated by spaces: 10 20 30
 Sum of the numbers: 60.00
 Average of the numbers: 20.00
 ```
-
+*/
 
 2. ###Conversion of Fahrenheit to Celsius and vice versa:
    Code:
