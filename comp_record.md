@@ -1,7 +1,46 @@
-University College of Engineering Narasaraopeta, JNTUK - KakinadaJNTUK B.Tech. R23 RegulationsPrepared by: Dr. S. Chandra Sekhar, APCSE, JNTUK - Kakinada Page 1 of2COMPUTER PROGRAMMING LABI. Problem-solving using algorithms and Flow charts
-1. Sum and average of 3 numbers
-2. Conversion of Fahrenheit to Celsius and vice versa
-3. Simple interest calculation
+**University College of Engineering Narasaraopeta, JNTUK - Kakinada**
+**JNTUK B.Tech. R23 Regulations**
+
+# COMPUTER PROGRAMMING LAB
+
+## I. Problem-solving using algorithms and Flow charts
+1. ### Sum and Average of 3 Numbers:
+  Code:
+```c
+#include <stdio.h>
+
+int main() {
+    // Sum and Average of 3 Numbers
+    float num1, num2, num3;
+
+    printf("Enter three numbers separated by spaces: ");
+    scanf("%f %f %f", &num1, &num2, &num3);
+
+    // Calculate sum
+    float sum_of_numbers = num1 + num2 + num3;
+
+    // Calculate average
+    float average_of_numbers = sum_of_numbers / 3;
+
+    // Display results
+    printf("Sum of the numbers: %.2f\n", sum_of_numbers);
+    printf("Average of the numbers: %.2f\n", average_of_numbers);
+
+    return 0;
+}
+```
+Output
+```
+Enter three numbers separated by spaces: 10 20 30
+Sum of the numbers: 60.00
+Average of the numbers: 20.00
+```
+
+
+2. ###Conversion of Fahrenheit to Celsius and vice versa:
+   Code:
+   
+4. Simple interest calculation
 II. Variable types and type conversions
 1. Write a C program to find the square root of a given number
 2. Write a C program to find compound interest
